@@ -18,8 +18,6 @@
             <span>price &euro;</span>
         </div>
     </div>
-</div>
-<div class="my_container">
     <div class="my_card">
         <div class="my_card_img">
             <img class="my_img_first" src="/img/1.webp" alt="img1">
