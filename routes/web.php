@@ -17,16 +17,24 @@ Route::get('/', function () {
     $products = config('products.products');
 
     return view('home', compact('products'));
-})->name('home');
+})->name('Home');
 
 Route::get('/donna', function () {
     return view('donna');
-})->name('donna');
+})->name('Donna');
 
 Route::get('/uomo', function () {
     return view('uomo');
-})->name('uomo');
+})->name('Uomo');
 
 Route::get('/bambini', function () {
     return view('bambini');
 })->name('bambini');
+
+Route::get('/like', function () {
+    return view('like');
+})->name('like');
+
+Route::get('/carrello', function () {
+    return view('carrello');
+})->name('carrello');

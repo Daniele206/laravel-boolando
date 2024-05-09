@@ -19,15 +19,15 @@ return[
         'icoMenu'=> [
         [
             'class'=> 'fa-regular fa-user',
-            'link'=> '#'
+            'link'=> 'Home'
         ],
         [
-            'class'=> 'mx-2 fa-regular fa-heart',
-            'link'=> '#'
+            'class'=> 'fa-regular fa-heart',
+            'link'=> 'like'
         ],
         [
             'class'=> 'fa-solid fa-bag-shopping',
-            'link'=> '#'
+            'link'=> 'carrello'
         ],
         ]
         ],
