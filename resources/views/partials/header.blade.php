@@ -4,17 +4,19 @@
             <ul class="my_menu">
                 <li>
                     <a
+                    class="{{Route::currentRouteName() === 'donna' ? 'active' : ''}}"
                     href="{{route('donna')}}"
                     >Donna</a>
                 </li>
                 <li>
                     <a
-                    class="mx-2"
+                    class="{{Route::currentRouteName() === 'uomo' ? 'active mx-2' : 'mx-2'}}"
                     href="{{route('uomo')}}"
                     >Uomo</a>
                 </li>
                 <li>
                     <a
+                    class="{{Route::currentRouteName() === 'bambini' ? 'active' : ''}}"
                     href="{{route('bambini')}}"
                     >Bambini</a>
                 </li>
@@ -25,7 +27,7 @@
         </div>
         <div class="my_section d-flex justify-content-end">
             <ul class="my_menu">
-                <li>
+                <li class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}">
                     <a href="{{route('home')}}">
                     <i class="fa-regular fa-user"></i>
                     </a>
