@@ -1,0 +1,26 @@
+footer{
+    background-color: $my_black;
+    padding: 25px 0 25px 0;
+    .my_container{
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .agency{
+            font-weight: bold;
+            font-size: 1.2rem;
+        };
+        a{
+            text-decoration: none;
+            color: white;
+            font-size:.8rem;
+        };
+        .social_direct{
+            font-weight: bold;
+            font-size: 1.2rem;
+        };
+        i{
+            font-size: 1.7rem;
+        }
+    }
+}

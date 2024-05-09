@@ -1,0 +1,30 @@
+header{
+    background-color: $my_orange;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 1px 3px gray;
+    .my_container{
+        height: 100%;
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .my_section{
+            width: 220px;
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+            i{
+                color: white;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

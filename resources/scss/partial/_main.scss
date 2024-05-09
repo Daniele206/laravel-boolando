@@ -1,0 +1,9 @@
+main{
+    padding-top: 70px;
+    .my_container{
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
